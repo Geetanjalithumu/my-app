@@ -15,7 +15,6 @@ spec:
       containers:
       - name: hello-container
         image: thumugeetanjali/hello-app:latest
-        # Optional: If you want to check logs
         ports:
         - containerPort: 80
 ---
